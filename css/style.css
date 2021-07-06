@@ -1,0 +1,663 @@
+
+*{margin: 0; padding: 0; box-sizing: border-box;}
+img{max-width: 100%;}
+body{font-family: "kalKalpurush";}
+
+/*Header Section is Start Now........................*/
+
+.header-wraper {
+    overflow: hidden;
+    width: 98%;
+    border-bottom: 1px solid #dddd;
+    margin: 0 auto;
+}
+
+.logo {
+    width: 13%;
+    float: left;
+    padding: 10px 0px;
+    margin-left: 5px;
+}
+
+.main-menu {
+    float: left;
+    border-radius: 5px;
+    background: #dddddd70;
+    margin-left: 55px;
+    margin: 8px 60px;
+    margin-right: 20px;
+}
+
+.minu-ber ul li {
+    list-style-type: none;
+    display: inline-block;
+}
+
+ul li a {
+    display: inline-block;
+    padding: 10px 19px;
+    color: #544343;
+    overflow: hidden;
+    position: relative;
+}
+
+ul {
+    padding: 0px 5px;
+}
+
+li a i {padding-right: 10px;}
+
+ul li a:hover {
+    background: red;
+    color: white;
+    border-radius: 5px;
+}
+
+.dropdown{
+    display: none;
+    position: absolute;
+    max-width: 216px;
+    z-index: 1;
+    border: 1px solid #947f7f;
+    padding: 10px 5px;
+    background: white;
+}
+  
+.hover:hover .dropdown{
+    display: block;
+}
+
+
+.login {
+    float: left;
+}
+
+button.login {
+    background: black;
+    color: white;
+    border: none;
+    padding: 10px 24px;
+    border-radius: 4px;
+    margin: 10px 0px;
+    font-weight: 600;
+    transition: 0.3s;
+    font-size: 15px;
+}
+
+button.login:hover {
+    background: transparent;
+    border: 1px solid;
+    border-radius: 4px;
+    color: black;
+}
+
+
+
+/*Header Section is End Now........................*/
+/*Head Section is Start here........................*/
+
+.head-section-wraper {
+    overflow: hidden;
+    background-color: #dddddd70;
+    border-radius: 20px;
+}
+
+.container {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.head-heading {
+    padding: 45px 0px;
+}
+
+.head-heading h1 {
+    font-size: 3rem;
+    font-weight: bold;
+    color: #202054;
+}
+
+span {
+    color: #ff284f;
+}
+
+.head-heading p {
+    padding: 29px 0px;
+    color: #524343;
+    font-size: 15px;
+}
+
+.head-heading p span {
+    font-weight: 600;
+}
+
+.select-items {
+    overflow: hidden;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.select-item {
+    width: 32%;
+    text-align: center;
+    background-color: white;
+    margin-right: 17px;
+    border-radius: 8px;
+    float: left;
+}
+
+.select-item:last-child {
+    margin: 0;
+}
+
+.select-item:hover {
+    background: #3f3f3f;
+    color: white;
+}
+
+.select-item img {
+    padding-top: 20px;
+    width: 38%;
+}
+
+.select-item p {
+
+    padding: 17px 0px;
+}
+
+.here-video {
+    text-align: center;
+}
+
+.here-video video {
+    width: 50%;
+    padding: 50px 0px;
+}
+
+/*Head Section is End here........................*/
+/*pacage Section is Start here........................*/
+
+.pacage-wraper {
+    padding: 65px 0px;
+    overflow: hidden;
+}
+
+.p-items {
+    overflow: hidden;
+    width: 94%;
+    margin: 0 auto;
+    border-radius: 10px;
+}
+
+.p-item {
+    width: 32%;
+    background-color: #dddddd57;
+    float: left;
+    margin-right: 18px;
+    border-radius: 10px;
+}
+
+.p-itme-photo {
+    padding: 25px 15px;
+}
+
+.p-item-head h3 {
+    text-align: center;
+    text-decoration: none;
+    color: #1b1b50;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+a {
+    text-decoration: none;
+}
+
+.p-item-list ul li {
+    list-style-type: none;
+    text-align: center;
+    padding: 12px 0px;
+    color: #2f2d2ddd;
+}
+
+.p-item-button {
+    text-align: center;
+    padding: 20px 0px;
+}
+
+.p-item-button button {
+    padding: 7px 36px;
+    background-color: #45c881;
+    border: none;
+    border-radius: 3px;
+    color: white;
+    font-size: 15px;
+}
+
+.p-item:nth-child(3){
+    margin-right: 0px;
+}
+
+.p-item-list i {
+    background-color: #45c881;
+    border-radius: 100%;
+    padding: 4px;
+    color: white;
+    margin-right: 7px;
+}
+
+/*pacage Section is End here........................*/
+/*Books Section is Start here........................*/
+
+.books-wraper {
+    overflow: hidden;
+    background-color: #dddddd70;
+}
+
+.books-text {
+    width: 380px;
+    margin: 0 auto;
+}
+
+.books-text h1 {
+    color: #1c1c69;
+    font-size: 30px;
+    text-align: center;
+    margin-top: 40px;
+    font-family: "kalKalpurush";
+}
+
+.books-text p {
+    text-align: center;
+    padding: 20px 0px;
+}
+
+.books-text p a {
+    color: #060606dd;
+    font-weight: 700;
+    font-size: 15px;
+}
+
+.books-text p a:hover {
+    color: red;
+}
+
+.books-text i {
+    margin-left: 10px;
+    font-size: 25px;
+}
+
+.books-items {
+    overflow: hidden;
+    width: 93%;
+    margin: 0 auto;
+}
+
+.books-item {
+    width: 23%;
+    background-color: white;
+    border-radius: 15px;
+    float: left;
+    margin-right: 24px;
+}
+
+.books-item:last-child{
+    margin-right: 0px;
+}
+
+.books-photo {
+    padding: 20px 30px;
+}
+
+img.books-image {
+    border-radius: 10px;
+}
+
+.books-photo {
+    padding: 20px 30px;
+}
+
+img.books-image {
+    border-radius: 10px;
+}
+
+.books-item-text {
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.books-item-text h2 {
+    color: #2c0a61;
+    font-size: 19px;
+    font-weight: 600;
+    font-family: "kalKalpurush"
+}
+
+.books-item-text p {
+    color: black;
+    font-weight: 600;
+    font-size: 14px;
+    font-family: "kalKalpurush"
+}
+
+.books-button {
+    overflow: hidden;
+    width: 115px;
+    margin: 0 auto;
+    padding: 40px 0px;
+}
+
+button.left {
+    float: left;
+    padding: 12px;
+    border: none;
+    border-radius: 100%;
+    font-size: 22px;
+    background: #ffffff52;
+    color: #736f6f;
+}
+
+button.right {
+    float: right;
+    padding: 12px;
+    border: none;
+    border-radius: 100%;
+    font-size: 22px;
+    background: #ffffff52;
+    color: #736f6f;
+}
+
+/*Books Section is End here........................*/
+/*App Download Section is Start here........................*/
+
+.app-down-wraper {
+    overflow: hidden;
+    background-color: #dddddd70;
+}
+
+.app-down-item {
+    width: 615px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.app-down-item h2 {
+    font-size: 27px;
+    padding: 20px 0px;
+    color: #19194c;
+}
+
+.app-down-item p{
+    color: #211d1ddd;
+    font-weight: 600;
+    font-size: 14px;
+}
+
+button.app-down-btn {
+    background-color: #ff284f;
+    border: none;
+    border-radius: 3px;
+    padding: 10px 15px;
+    color: white;
+    font-weight: 400;
+    font-size: 14px;
+    margin: 25px 0px;
+    transition: 0.5s;
+}
+
+button.app-down-btn:hover {
+    background: white;
+    border: 1px solid red;
+    border-radius: 5px;
+    color: red;
+    cursor: pointer;
+}
+
+
+/*App Download Section is End here........................*/
+/*Our Item Section is Start here........................*/
+
+.our-items-wraper {
+    overflow: hidden;
+    background-color: #dddd;
+}
+
+.items {
+    width: 96%;
+    margin: 0 auto;
+}
+
+.item {
+    width: 23%;
+    float: left;
+    background-color: white;
+    border-radius: 10px;
+    margin-right: 25px;
+}
+
+.item:last-child {
+    margin-right: 0;
+}
+
+.item-photo {
+    width: 30%;
+    float: left;
+    margin-left: 20px;
+    padding: 15px 0px;
+}
+
+.item-text {
+    width: 56%;
+    float: left;
+    margin-left: 8px;
+    text-align: center;
+    padding: 25px 0px;
+}
+
+.item-text p {
+    font-size: 14px;
+    color: #292020dd;
+}
+
+.item-text b {
+    font-size: 24px;
+    color: #26267d;
+}
+
+/*Our Item Section is End here........................*/
+/*Studying Section is Start here........................*/
+
+.studying {
+    overflow: hidden;
+    background-color: #dddddd70;
+}
+
+.studying-item {
+    width: 64%;
+    margin: 0 auto;
+    padding: 50px 0px;
+}
+
+/*Studying Section is End here........................*/
+/*Our services Section is Start here........................*/
+
+.services-wraper {
+    overflow: hidden;
+    background-color: #dddddd70;
+}
+
+.services-items {
+    width: 60%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.services-items p {
+    font-size: 15px;
+    line-height: 30px;
+    color: #403f3fed;
+}
+
+.services-items h1 {
+    font-size: 26px;
+    font-weight: bold;
+    padding: 10px 0px;
+}
+
+/*Our services Section is End here........................*/
+/*Patner Slider Section is Start here........................*/
+
+.patner {
+    background: #dddddd70;
+}
+
+.patner-slider {
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.p-slider-item {
+    float: left;
+    width: 125px;
+    padding: 22px;
+}
+
+.p-slider-item:last-child {
+    margin-right: 0;
+}
+
+
+
+
+
+
+
+
+/*Patner Slider Section is End here........................*/
+/*E-traning Section is Start here........................*/
+
+.e-traning {
+    overflow: hidden;
+    background-color: #dddddd70;
+}
+
+.e-traning-item {
+    padding: 40px 20px;
+}
+
+/*E-traning Section is End here........................*/
+/*Footer Section is Start here........................*/
+
+.footer-wraper {
+    overflow: hidden;
+    background-color: #2b2929;
+    color: white;
+}
+
+.footer-container {
+    width: 95%;
+    margin: 0 auto;
+}
+
+.footer-item {
+    overflow: hidden;
+    padding: 50px 0px;
+    border-bottom: 1px solid #888282
+}
+
+.fist-item {
+    width: 48%;
+    float: left;
+}
+
+.f-item-text {
+    padding: 20px 0px;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.socil-icon i {
+    padding: 10px;
+    font-size: 25px;
+}
+
+.footer-wraper {
+    overflow: hidden;
+    background-color: #2b2929;
+    color: white;
+}
+
+.footer-container {
+    width: 95%;
+    margin: 0 auto;
+}
+
+.footer-item {
+    overflow: hidden;
+    padding: 50px 0px;
+}
+
+.fist-item {
+    width: 48%;
+    float: left;
+}
+
+.f-item-text {
+    padding: 20px 0px;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.socil-icon i {
+    padding: 10px;
+    font-size: 25px;
+}
+
+.second-item {
+    overflow: hidden;
+    width: 50%;
+    float: left;
+}
+
+.second-items {
+    overflow: hidden;
+}
+
+.s-item {
+    width: 35%;
+    float: left;
+    margin-left: 25px;
+    margin-right: 34px;
+}
+
+.s-item p {
+    font-weight: bold;
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.s-item ul li {
+    list-style-type: none;
+    font-weight: bold;
+    color: #ffffffe0;
+    padding: 4px 0px;
+    font-size: 18px;
+}
+
+.copyright-item {
+    width: 410px;
+    margin: 0 auto;
+    padding: 20px 0px;
+    font-size: 13px;
+    font-weight: 600;
+}
+
+/*Footer Section is End here........................*/
+ 
+
+
+
+
+
